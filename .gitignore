@@ -1,0 +1,10 @@
+# sdk/ is prepared as a whole-tree mirror of github.com/zenvara-platform/sdk
+# (ZEN-4690, the ZEN-4300 examples pattern). Keep this file free of anything
+# the sync job wouldn't want to carry into the public clone — build artifacts,
+# local scratch files, editor swap files. Standard .NET build output.
+bin/
+obj/
+*.nupkg
+*.snupkg
+*.tmp
+.DS_Store
